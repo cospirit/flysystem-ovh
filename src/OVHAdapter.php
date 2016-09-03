@@ -1,6 +1,6 @@
 <?php
 
-namespace Techyah\Flysystem\OVH;
+namespace ArDev\Flysystem\OVH;
 
 use Guzzle\Http\Exception\ClientErrorResponseException;
 use League\Flysystem\Adapter\AbstractAdapter;

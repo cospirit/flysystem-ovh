@@ -1,11 +1,17 @@
 {
-    "name": "techyah/flysystem-ovh",
+    "name": "ardeveloppement/flysystem-ovh",
     "description": "Flysystem Adapter for OVH Openstack Swift Object Storage",
+    "homepage": "https://github.com/ArDeveloppement/flysystem-ovh.git",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Nuwan Sumihiran Bandara",
             "email": "nuwan@techyah.com"
+        },
+        {
+            "name": "ArDeveloppement",
+            "email": "contact@ardeveloppement.fr"
         }
     ],
     "require": {
@@ -19,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Techyah\\Flysystem\\OVH\\": "src/"
+            "ArDev\\Flysystem\\OVH\\": "src/"
         }
     },
     "config": {

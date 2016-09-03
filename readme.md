@@ -1,19 +1,17 @@
 # Flysystem Adapter for OVH Openstack Swift Object Storage
 
-[![Author](https://img.shields.io/badge/author-@sumihiran-blue.svg?style=flat-square)](https://twitter.com/sumihiran)
-
 
 ## Installation
 
 ```bash
-composer require techyah/flysystem-ovh
+composer require ardeveloppement/flysystem-ovh
 ```
 
 ## Usage
 ```php
 use League\Flysystem\Filesystem;
-use Techyah\Flysystem\OVH\OVHClient;
-use Techyah\Flysystem\OVH\OVHAdapter;
+use ArDev\Flysystem\OVH\OVHClient;
+use ArDev\Flysystem\OVH\OVHAdapter;
 
 $options = [
    'username'  => ':username',
